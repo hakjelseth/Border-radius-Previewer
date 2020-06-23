@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>Border-radius Previewer</title>
+    <script src="funksjoner.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+<h1>Border-radius Previewer</h1>
+
+<form>
+    <input type="number" id="borderRadius1" name="borderRadius1" onchange="endreRadius1(this.value)"  />
+    <input type="number" id="borderRadius2" name="borderRadius2" onchange="endreRadius2(this.value)"/><br/>
+    <p id="rcorners"></p>
+    <input type="number" id="borderRadius3" name="borderRadius3" onchange="endreRadius3(this.value)" />
+    <input type="number" id="borderRadius4" name="borderRadius4" onchange="endreRadius4(this.value)"/><br/>
+</form>
+<form>
+    <textarea id="borderRadius" name="borderRadius" rows="4"></textarea><br/>
+    <input type="button" onclick="kopier()" value="Copy text"/>
+</form>
+
+</body>
+</html>
