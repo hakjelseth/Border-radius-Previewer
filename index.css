@@ -1,30 +1,54 @@
+body {
+    background-color: #3D3D3D;
+    font-family: Calibri;
+}
+h1{
+    position: relative;
+    left: 787px;
+    color: rgba(150,150,150,0.54);
+}
 #rcorners {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
-    background: #696969;
+    background: #e9eaee;
     padding: 20px;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    margin: auto;
 }
 #borderRadius1{
     width: 50px;
+    position: relative;
+    left: 730px;
 }
 #borderRadius2{
     width: 50px;
     position: relative;
-    left: 175px;
+    left: 1070px;
 }
 #borderRadius3{
     width: 50px;
+    position: relative;
+    left: 730px;
 }
 #borderRadius4{
     width: 50px;
     position: relative;
-    left: 175px;
+    left: 1070px;
 }
 #borderRadius{
     width: 250px;
-    height: 150px
+    height: 150px;
+    position: relative;
+    padding: 10px;
+    border: none;
+    left: 820px;
+}
+#copy{
+    position: relative;
+    top: 5px;
+    left: 820px;
 }
