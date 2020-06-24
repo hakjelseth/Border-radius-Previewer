@@ -4,7 +4,6 @@ function kopier(){
     copyText.select();
     copyText.setSelectionRange(0, 99999); /*For mobile devices*/
     document.execCommand("copy");
-    document.getElementById("borderRadius").innerHTML = "BSAHS";
 
 }
 
